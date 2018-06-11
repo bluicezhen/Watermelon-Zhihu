@@ -24,7 +24,6 @@
     window.cardListLength = 0;
     let eCardList = document.getElementsByClassName("TopstoryMain")[0].children[0];
 
-
     eCardList.addEventListener('DOMNodeInserted', function () {
         if (window.cardListLength !== eCardList.children.length) {
             removeZhuanLan();
